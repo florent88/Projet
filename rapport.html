@@ -1,3 +1,101 @@
 <html>
 <head>
-Sommaire
+<title>Rapport projet 2048</title>
+<meta charset="utf-8">
+<meta name="description" content="Voici le rapport pour le projet de 2048 sur Python">
+<style type="text/css"></style>
+</head>
+<body data-gr-c-s-loaded="true">
+<h1> Rapport du projet du jeu 2048 sur Python</h1>
+<h2>Table des matières</h2>
+<p><h3>1. Objectifs et motivations du projet</h3>
+<br>
+		&emsp; a. D'où vient cette idée?
+<br>
+		&emsp; b. Nos motivations et l'aide
+<br>
+		&emsp; c. Comment fonctionne notre programme
+<br>
+<br>
+<h3>2. Organisation du travail en équipe</h3>
+<br>
+		&emsp; a. Répartition
+<br>
+		&emsp; b. Chronologie
+<br>
+<br>
+<h3>3. Différents éléments du programme</h3>
+<br>
+		&emsp; a. Programme de base
+<br>
+		&emsp; b. Interface graphique
+<br>
+<br>
+<h3>4. Développement théorique</h3>
+<br>
+		&emsp; a. L'IA
+<h3>5. Bibliographie/Sitographie</h3>
+</p>
+<p>
+<h2>1. Objectifs et motivations du projet</h2>
+Ici, nous allons présenter les objectifs principaux du projet ainsi que la raison pour laquelle on a décidé de faire ce projet
+<h3>a. D'où vient cette idée?</h3>
+De base, nous avons eu l’idée de faire un jeu vidéo sur python. Ainsi, nous avons regardé sur un site (voir bibliographie pour le lien) afin de savoir quels jeux nous pouvons faire avec quel langage, ici python. Après avoir regardé, il fallait un « petit jeu » qui ne nécessitait pas trop de ressources. De plus, le site nous affirmait que programmer un jeu sur Python, nous enseigne la rigueur, nous avons donc décidé de programmer le jeu classique 2048. Ainsi, nous pouvions faire une interface graphique ainsi qu'une intelligence artificielle qui puisse avoir le score le plus haut possible avec ses capacités.
+<h3>b. Nos motivations et l'aide</h3>
+Vu qu’il n’est pas trop difficile à programmer (nous avons vu par la suite que ce n’était pas trop le <a href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2019-09-23-at-11-37-07-1569235048.jpg?crop=0.495xw:1.00xh;0.185xw,0&resize=980:*">cas</a>) nous avons aussi décidé de créer une IA sur ce jeu. N’étant pas des connaisseurs de Python, nous avons rechercher des personnes ayant fait ce jeu sur Python. Nous avons découvert l’utilisateur Synthx sur github qui avait aussi fait un 2048 pour son école polytechnique. Par hasard, cet utilisateur avait aussi fait une IA pour 2048 ce qui nous a bien aidé ! Une aide bien utile est Stack Overflow, Florent y a posé une question, sans succès, mais d'autres questions déjà posées on certainement aidé pour la programmation de notre jeu.
+ <h3>c. Comment fonctionne le programme</h3>
+ Quand on lance notre jeu, l'utilisateur est acceuilli d'un menu tkinter qui l'envoie sur le jeu s'il le décide. Ensuite le jeu se lance avec deux cases qui ont deux possibilités de valeurs: 2 avec 70% ou 4 avec 30% de chances. L'utilisateur peut utiliser les flèches de son clavier afin de déplacer toutes les cases en haut sauf s'il y a des obstacle et si il a appuyer sur la flèche du haut,déplacer toutes les cases en bas sauf s'il y a des obstacle et si il a appuyer sur la flèche du bas,déplacer toutes les cases à gauche sauf s'il y a des obstacle et si il a appuyer sur la flèche de gauche,déplacer toutes les cases à droite sauf s'il y a des obstacle et si il a appuyer sur la flèche de droite. Les cases sont en puissances de 2, le but étant de les accumulées afin d'obtenir une case s'additionnant à 2048.
+ <h2>2. Organisation du travail en équipe</h2>
+ Voici comment on s'est organisé notre travail en équipe.
+ <h3>a. Répartition</h3>
+ Nous avons réparti le travail en équipe afin que la charge de travail ne soit pas trop lourde. Ainsi, Florent à fait toute la partie de l’interface graphique et Maxim et Mathys on fait la plupart de la programmation.
+ <h3>b. Chronologie</h3>
+ Nous avons attendu de finir toutes les séances en classe avant de commencer à programmer chez nous, dû au devoirs et aux autres activités, le programme et le rapport ce sont faits un peu en dernière minute... De plus, il était plus dur de se concentrer en classe et quasiment impossible de regarder des tutoriels pour les parties que nous savont pas faire.
+ <h2>3. Différents éléments du programme</h2>
+ Dans cette partie, on montre comment fonctionne le programmme
+ <h3>a. Programme de base</h3>
+ Maxim peut faire cette partie peut être avec une image
+ <h3>b. Interface graphique</h3>
+ Pour l'interface graphique, on a fait un menu simple, si l'utilisateur souhaite se retirer au dernier moment. On a aussi fait une interface graphique afin que ce ne soit pas simplement des caractères "2" sur Python mais des boutons:"insérer une image". Ainsi, on a remplacé les valeurs par des boutons que l'on peut cliquer (même si cela est inutile).
+ <h2>4. Développement théorique</h2>
+ <h3>a. L'IA</h3>
+ Voici le développement théorique de l'intelligence artificielle qui peut jouer au jeu de la façon la plus optimisée. Ici il y aura une complexité ainsi qu'une preuve du programme. Dans le cas de l'IA, la complexité est spatiale, j'expliquerai pourquoi plus tard. 
+ <br>
+ #meettre le programme#
+ <br>
+ Cet algorithme comporte:
+ <br>
+ 1.
+ <br>
+ 2.
+ <br>
+ 3.
+ <br>
+ Cela donne un total de ## opérations élémentaires
+ <br>
+ Ici, l'IA continue jusqu'à ce qu'elle ne puisse plus, ainsi nous raisonnant dans le pire cas. Ici, le "pire cas" est que l'IA ne fonctionne plus car elle est au maximum possible sur 2048  131072, la boucle se serait répété environ 300 000 fois!
+ <h2>5.Bibliographie/Sitographie</h2>
+<a href="https://splashlogics.com/quel-langage-de-programmation-choisir-pour-un-jeu/ ">splashlogics.com/quel-langage-de-programmation-choisir-pour-un-jeu/</a>
+<br>
+Ceci est le site que nous avons utilisé pour nous aider à choisir un jeu à programmer sur python.
+<br>
+<a href="https://github.com/Synthx/2048">https://github.com/Synthx/2048</a>
+<br>
+Ceci est la page github de l’utilisateur Synthx où il y a son programme sur python de 2048.
+<br>
+<a href="https://www.youtube.com/watch?v=YXPyB4XeYLA">https://www.youtube.com/watch?v=YXPyB4XeYLA</a>
+<br>
+<a href="https://www.youtube.com/watch?v=oV68QJJUXTU&list=PLQVvvaa0QuDclKx-QpC9wntnURXVJqLyk&index=5">https://www.youtube.com/watch?v=oV68QJJUXTU&list=PLQVvvaa0QuDclKx-QpC9wntnURXVJqLyk&index=5</a>
+<br>
+Ne connaissant pas tkinter tant que ça, Florent a dû apprendre à l'aide de ces vidéos.
+<br>
+<a href="https://stackoverflow.com/">https://stackoverflow.com/</a>
+<br>
+Stack Overflow est très utile pour obtenir de l'aide quand on est bloqué!
+<br>
+<a href="http://help.foundant.com/8390-outside-of-glm/229310-how-many-pages-is-10-000-characters">http://help.foundant.com/8390-outside-of-glm/229310-how-many-pages-is-10-000-characters</a>
+<br>
+Preuve que notre rapport fait quatres pages<a href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/237/face-with-tears-of-joy_1f602.png">.</a>
+ 
+ 
+ </p>
